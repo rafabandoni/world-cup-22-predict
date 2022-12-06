@@ -1,0 +1,49 @@
+,date,home_team,home_score_predicted,away_score_predicted,away_team
+0,2022-11-21,Qatar,1.0,2.0,Ecuador
+1,2022-11-21,Senegal,1.0,2.0,Netherlands
+2,2022-11-21,England,1.0,1.0,Iran
+3,2022-11-21,USA,1.0,1.0,Wales
+4,2022-11-22,France,2.0,1.0,Australia
+5,2022-11-22,Denmark,4.0,1.0,Tunisia
+6,2022-11-22,Mexico,1.0,2.0,Poland
+7,2022-11-22,Argentina,1.0,0.0,Saudi Arabia
+8,2022-11-23,Belgium,2.0,0.0,Canada
+9,2022-11-23,Spain,2.0,1.0,Costa Rica
+10,2022-11-23,Germany,1.0,1.0,Japan
+11,2022-11-23,Morocco,0.0,1.0,Croatia
+12,2022-11-24,Switzerland,1.0,1.0,Cameroon
+13,2022-11-24,Uruguay,2.0,1.0,South Korea
+14,2022-11-24,Portugal,2.0,1.0,Ghana
+15,2022-11-24,Brazil,3.0,1.0,Serbia
+16,2022-11-25,Wales,2.0,0.0,Iran
+17,2022-11-25,Qatar,1.0,1.0,Senegal
+18,2022-11-25,Netherlands,1.0,0.0,Ecuador
+19,2022-11-25,England,1.0,1.0,USA
+20,2022-11-26,Tunisia,3.0,1.0,Australia
+21,2022-11-26,Poland,4.0,0.0,Saudi Arabia
+22,2022-11-26,France,1.0,1.0,Denmark
+23,2022-11-26,Argentina,2.0,1.0,Mexico
+24,2022-11-27,Japan,2.0,1.0,Costa Rica
+25,2022-11-27,Belgium,2.0,1.0,Morocco
+26,2022-11-27,Croatia,1.0,1.0,Canada
+27,2022-11-27,Spain,1.0,2.0,Germany
+28,2022-11-28,Cameroon,0.0,3.0,Serbia
+29,2022-11-28,South Korea,2.0,1.0,Ghana
+30,2022-11-28,Brazil,1.0,1.0,Switzerland
+31,2022-11-28,Portugal,1.0,1.0,Uruguay
+32,2022-11-29,Wales,1.0,2.0,England
+33,2022-11-29,Iran,1.0,1.0,USA
+34,2022-11-29,Ecuador,0.0,2.0,Senegal
+35,2022-11-29,Netherlands,1.0,1.0,Qatar
+36,2022-11-30,Australia,1.0,2.0,Denmark
+37,2022-11-30,Tunisia,0.0,2.0,France
+38,2022-11-30,Poland,2.0,2.0,Argentina
+39,2022-11-30,Saudi Arabia,1.0,2.0,Mexico
+40,2022-12-01,Croatia,1.0,1.0,Belgium
+41,2022-12-01,Canada,0.0,2.0,Morocco
+42,2022-12-01,Japan,0.0,2.0,Spain
+43,2022-12-01,Costa Rica,0.0,2.0,Germany
+44,2022-12-02,Ghana,1.0,1.0,Uruguay
+45,2022-12-02,South Korea,2.0,1.0,Portugal
+46,2022-12-02,Serbia,0.0,1.0,Switzerland
+47,2022-12-02,Cameroon,1.0,3.0,Brazil
