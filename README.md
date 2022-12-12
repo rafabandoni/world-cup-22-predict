@@ -12,11 +12,7 @@ A random forest approach was applied, below we have the log for the tunning on t
 
 ### Group Stage: n_estimators = 1000, random_seed = 42:
 On this approach, we got:
-- Something right (outcome, goals for the home team and/or goals for the visitor team) in 70.83% of the cases;
-- Outcome correct on 37.5% of the cases;
-- Home goals correct on 29,17% of the cases;
-- Visitor goals correct on 35,42% of the cases;
-- Bullseye (correct outcome and both team goals) on 6,25% of the cases.  
+(Results being reviewed after algorithm optimization)
 
 ## Playoffs Stage: n_estimators = 1000, random_seed = 42:
 Still developing the predictions for the playoffs.

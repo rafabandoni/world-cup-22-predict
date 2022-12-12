@@ -1,0 +1,9 @@
+,date,home_team,home_score_predicted,away_score_predicted,away_team
+0,2022-12-03,Netherlands,1.0,0.0,USA
+1,2022-12-03,Argentina,2.0,1.0,Australia
+2,2022-12-04,France,2.0,1.0,Poland
+3,2022-12-04,England,1.0,0.0,Senegal
+4,2022-12-05,Japan,1.0,1.0,Croatia
+5,2022-12-05,Brazil,3.0,1.0,South Korea
+6,2022-12-06,Morocco,1.0,1.0,Spain
+7,2022-12-06,Portugal,1.0,1.0,Switzerland
