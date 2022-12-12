@@ -2,16 +2,16 @@
 This is a personal project that tries to predict the results of the FIFA World Cup games with a random forest approach.  
 
 ## Data Used
-For this project |  3 datasets were used:  
+For this project, 3 datasets were used:  
 - Historical games (which includes world cups and other championships);
-- Historical outcomes ratio (win |  loose and draw);
-- Historical rank on FIFA and rank points.
+- Historical outcomes ratio (win, loose and draw);
+- Historical rank on FIFA and rank points.  
 
 ## Approach
-A random forest approach was applied |  below we have the log for the tunning on the approach:
+A random forest approach was applied, the number of n_estimators were 1000 and random_seed is 42.
 
-## Group Stage: n_estimators = 1000 |  random_seed = 42:
-On this approach |  we got:
+## Group Stage:
+For group stage predictions, we got:
 
 date | home_team | home_score_predicted | away_score_predicted | away_team |
 --- | --- | --- | --- | --- |
@@ -64,19 +64,59 @@ date | home_team | home_score_predicted | away_score_predicted | away_team |
 2022-12-02 | Serbia | 1.0 | 1.0 | Switzerland |
 2022-12-02 | Cameroon | 1.0 | 2.0 | Brazil |
 
-## Playoffs Stage: n_estimators = 1000 |  random_seed = 42:
+As shown above, the stage group predicted right at least one of the features (home goals, away goals or final outcome) in 70.8% of the cases, which:
+- 31.25% predicted the home goals;
+- 20.83% predicted the away goals;
+- 43.75% predicted the final outcome;
+- 6.25% was bullseye, predicting both goals and outcome correct.
+
+## Playoffs Stage:
 The playoffs predictions were developed after each bracket was decided. Important note: real results from any stage weren't added to the training set.
 
 ### Phase of 16
+The phase of 16 predictions were:
 
+date | home_team | home_score_predicted | away_score_predicted | away_team | 
+--- | --- | --- | --- | --- |
+2022-12-03 | Netherlands | 1.0 | 0.0 | USA | 
+2022-12-03 | Argentina | 2.0 | 1.0 | Australia | 
+2022-12-04 | France | 2.0 | 1.0 | Poland | 
+2022-12-04 | England | 1.0 | 0.0 | Senegal | 
+2022-12-05 | Japan | 1.0 | 1.0 | Croatia | 
+2022-12-05 | Brazil | 3.0 | 1.0 | South Korea | 
+2022-12-06 | Morocco | 1.0 | 1.0 | Spain | 
+2022-12-06 | Portugal | 1.0 | 1.0 | Switzerland | 
 
+On the phase of 16, the algorithm predicted some feature correct on 100% of the cases, divided in:
+- 25% predicted the home goals;
+- 75% predicted the away goals;
+- 87% predicted the final outcome;
+- 25% was bullseye, predicting both goals and outcome correct.
 
 ### Phase of 8
+The phase of 8 predictions were:
 
+date | home_team | home_score_predicted | away_score_predicted | away_team |
+--- | --- | --- | --- | --- |
+2022-12-09 | Netherlands | 1.0 | 1.0 | Argentina |
+2022-12-09 | Croatia | 1.0 | 2.0 | Brazil |
+2022-12-10 | England | 1.0 | 1.0 | France |
+2022-12-10 | Morocco | 2.0 | 1.0 | Portugal |
 
+On the phase of 8, the algorithm got some feature righ in 100% of the cases, being:
+- 50% of the home goals;
+- 50% of the final outcomes;
+- No away goals nor bullseye happened on this stage.
 
 ### Semifinals
+The semifinals predictions were:
 
+date | home_team | home_score_predicted | away_score_predicted | away_team |
+--- | --- | --- | --- | --- |
+2022-12-13 | Argentina | 1.0 | 1.0 | Croatia |
+2022-12-14 | France | 2.0 | 1.0 | Morocco |
 
+Game still due to happen.
 
 ### Final
+To be defined.

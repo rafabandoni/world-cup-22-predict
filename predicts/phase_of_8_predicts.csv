@@ -1,5 +1,5 @@
-,date,home_team,home_score_predicted,away_score_predicted,away_team
-0,2022-12-09,Netherlands,1.0,1.0,Argentina
-1,2022-12-09,Croatia,1.0,2.0,Brazil
-2,2022-12-10,England,1.0,1.0,France
-3,2022-12-10,Morocco,2.0,1.0,Portugal
+date,home_team,home_score_predicted,away_score_predicted,away_team
+2022-12-09,Netherlands,1.0,1.0,Argentina
+2022-12-09,Croatia,1.0,2.0,Brazil
+2022-12-10,England,1.0,1.0,France
+2022-12-10,Morocco,2.0,1.0,Portugal
