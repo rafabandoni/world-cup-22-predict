@@ -116,7 +116,16 @@ date | home_team | home_score_predicted | away_score_predicted | away_team |
 2022-12-13 | Argentina | 1.0 | 1.0 | Croatia |
 2022-12-14 | France | 2.0 | 1.0 | Morocco |
 
-Game still due to happen.
+On the semifinals phase, the algorithm was able to predict right:
+- 50% of the final outcomes;
+- 50% of the home goals.
 
 ### Final
-To be defined.
+The final and third place predictions are:
+
+date | home_team | home_score_predicted | away_score_predicted | away_team |
+--- | --- | --- | --- | --- |
+2022-12-17 | Croatia | 1.0 | 1.0 | Morocco |
+2022-12-18 | Argentina | 1.0 | 1.0 | France |
+
+Games are still due to happen.
