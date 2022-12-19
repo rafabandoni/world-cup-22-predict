@@ -128,4 +128,13 @@ date | home_team | home_score_predicted | away_score_predicted | away_team |
 2022-12-17 | Croatia | 1.0 | 1.0 | Morocco |
 2022-12-18 | Argentina | 1.0 | 1.0 | France |
 
-Games are still due to happen.
+On finals phase, the algorithm was able to predict right:
+- The away goals on third place game;
+- The final outcome of the final game (draw).
+
+# Overalls
+
+- The phase of 16 was the higher number of correct outcomes, predicting more than 80% of the games;
+- On the phase of 8 and the semifinals, the algorithm predicted right half of the outcomes;
+- On group phase, the algorithm was better predicting the home goals (31% right), and on the phase of 16 it was better predicting away goals (75%);
+- Overall, the algorithm predicted right 48% of the outcomes.
